@@ -17,16 +17,18 @@
   <body>
     <header class="sobre" id="sobre">
       <div class="container">
-        <nav>
-          <img class="logo" src="./assets/images/branco_vermelho 1.png" alt="" />
+        <nav class="desktop">
+          <img class="logo" src="./assets/images/branco_vermelho.png" alt="" />
           <!-- imagem de fundo galera -->
           <img class="mockup" src="./assets/images/mockup01.png" alt="" />
-          <h1 class="text">Seu novo jeito de sair de casa.</h1>
-          <p class="text">Somos um aplicativo focado na divulgação de happy hour.</p>
-          <h2 class="text">Em busca de novos lugares? Baixe e confira!</h2>
-          <div>
-            <img class="qrcode" src="./assets/images/qr-code-google 2.png" alt="" />
-            <img class="qrcode" src="./assets/images/qe-code-apple 2.png" alt="" />
+          <div class="desktop-container">
+            <h1 class="text">Seu novo jeito de sair de casa.</h1>
+            <p class="text">Somos um aplicativo focado na divulgação de happy hour.</p>
+            <h2 class="text">Em busca de novos lugares? Baixe e confira!</h2>
+            <div class="qrcode-container">
+              <img class="qrcode" src="./assets/images/qr-code-google 2.png" alt="" />
+              <img class="qrcode" src="./assets/images/qe-code-apple 2.png" alt="" />
+            </div>
           </div>
         </nav>
       </div>
@@ -46,7 +48,6 @@
       <hr class="border"></hr>
     </section>
 
-    <!-- nova seção -->
     <section id="perguntas">
       <div class="container">
         <div class="perguntas-container">
@@ -59,6 +60,7 @@
           <p><b>NÃO!</b> O aplicativo do appy hour é gratuito.</p>
         </div>
 
+        <!-- social links -->
         <div class="perguntas-container">
           <h2>Como faço para falar com vocês?</h2>
           <p>Isso é fácil. Você pode nos mandar uma mensagem pelo direct no Instagram, e-mail ou pelo WhatsApp do appy hour.</p>
@@ -86,31 +88,38 @@
           </ul>
         </div>
 
+        <!-- selos das lojas -->
         <div class="perguntas-container">
           <h2>Faça o download agora!</h2>
           <p>É rapidinho, só clicar em um dos selos abaixo.</p>
 
-          <ul class="selos">
-            <li><a href="https://play.google.com/store/apps/details?id=com.appyhour " target="_blank">
-              <img class="selo" src="./assets/images/selo-play-store.png" alt="">
-            </a></li>
-            <li><a href="https://apps.apple.com/br/app/appy-hour/id1535822616 " target="_blank">
-              <img class="selo" src="./assets/images/selo-apple-store.png" alt="">
-            </a></li>
-          </ul>
+          <div class="selos">
+            <a href="https://play.google.com/store/apps/details?id=com.appyhour" target="_blank"><img class="selo" src="./assets/images/selo-play-store.png" alt=""></a>
+
+            <a href="https://apps.apple.com/br/app/appy-hour/id1535822616" target="_blank"><img class="selo" src="./assets/images/selo-apple-store.png" alt=""></a>
+          </div>                
         </div>
 
         <div class="perguntas-container">
-          <h2>Só te peço uma coisa! 😄</h2>
+          <h2>Só te peço uma coisa!😄</h2>
           <p>Siga a gente nas redes sociais e sempre que for em uma local através do aplicativo do appy hour, fale para o garçom, tira uma foto e marque nosso instagram, fale para os amigos. Tudo isso ajuda a manter o appy hour gratuito para você e nos ajuda a chegar em mais pessoas. <span>❤</span></p>
         </div>
       </div>
     </section>
 
-    <!-- nova seção -->
-    perguntas
+    <footer>
+      <div class="container">
+        <ul class="politicas">
+          <li><a href="https://appyhour.com.br/politicas.html" target="_blank">Política de Privacidade</a></li>
+          <li><a href="https://appyhour.com.br/politicas.html" target="_blank">Politica de Uso</a></li>
+        </ul>
 
-    <!-- rodapé -->
+        <div class="footer-container">
+          <img class="logo" src="./assets/images/branco_vermelho.png" alt="">
+          <p>Todos os direitos reservados</p>
+        </div>
+      </div>
+    </footer>   
 
     <script src="./scripts.js"></script>
   </body>
