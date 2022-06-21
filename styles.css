@@ -89,6 +89,11 @@ header {
   align-self: center;
 }
 
+#sobre .qrcode-container a {
+  display: inline-flex;
+  justify-content: center;
+}
+
 #sobre .qrcode {
   width: 40%;
 }
