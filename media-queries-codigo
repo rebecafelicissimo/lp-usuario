@@ -1,68 +1,7 @@
 
 
 @media (max-width: 999px) {
-  .logo {
-    width: 20%;
-    margin-bottom: 2rem;
-  }
-     
-  /* cabeçalho */  
-  #sobre .mockup {
-    width: 40%;  
-    margin-bottom: 2rem;
-    align-self: center;
-  }
-
-  #sobre .qrcode-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
   
-  #sobre .qrcode {
-    width: 20%;
-  }
-    
-  #sobre h2 {
-    font-weight: 700;
-  }
-  
-  /* beneficios */
-    
-  #beneficios ul li {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-  
-  /* perguntas */ 
-  #perguntas ul {
-    display: flex;
-    list-style: none;
-    padding-top: 4rem;
-  }
-  
-  #perguntas .social-links {
-    justify-content: center;
-    gap: 4rem;
-  }
-  
-  #perguntas ul li a svg {
-    width: 3.5rem;
-    height: 3.5rem;
-  }
-    
-  #perguntas .selo {
-    width: 45%;
-  }
-  
-  /* rodapé */  
-  footer ul li a {
-    font-size: 1.4rem;
-  }
-  
-  footer img.logo {
-    width: 20%;
-  }
 }
 
 @media (max-width: 2560px) {

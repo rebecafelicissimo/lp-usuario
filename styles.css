@@ -295,6 +295,68 @@ footer p {
   }  
 }
 
+@media (min-width: 768px) and (max-width: 999px) {
+  #sobre .logo {
+    width: 15%;
+  }
+
+  #sobre .mockup {
+    width: 45%;
+  }
+
+  #sobre .qrcode-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  #sobre .qrcode {
+    width: 20%;
+  }
+
+  /* benefícios */
+  #beneficios ul {
+    justify-content: space-evenly;
+    gap: 3rem;
+  }
+  
+  #beneficios ul li {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  /* perguntas */
+  #perguntas .perguntas-container {
+    margin-bottom: 6rem;
+    width: 60%;
+  }
+
+  #perguntas .social-links {
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  #perguntas ul li a svg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  #perguntas .selos a {
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+
+  #perguntas .selo {
+    width: 45%;
+  }
+
+  /* rodapé */
+  footer img.logo {
+    width: 15%;
+  }  
+}
+
 
 
 
