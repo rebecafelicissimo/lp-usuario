@@ -376,7 +376,7 @@ footer p {
   
   /* beneficios */
   #beneficios ul li {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   /* perguntas */
@@ -386,7 +386,7 @@ footer p {
   }
 
   #perguntas h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
     
   #perguntas p {
@@ -419,16 +419,29 @@ footer p {
   }
   
   /* rodapé */
+  footer {
+    padding-block: 2rem;
+  }
+    
+  footer ul li {
+    margin-bottom: 1rem;
+  }
+  
   footer ul li a {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+  
+  footer .footer-container {
+    gap: 0.5rem;
   }
   
   footer img.logo {
-    width: 20%;
+    width: 15%;
+    margin-bottom: 0;
   }
-
-  footer .footer-container p {
-    font-size: 1rem;
+  
+  footer p {
+    font-size: 0.6rem;
   }
 }
 
