@@ -357,6 +357,98 @@ footer p {
   }  
 }
 
+@media (min-width: 1000px) and (max-width: 2750px) {
+  .sobre {
+    background-color: #221E35;
+    background-image: url('./assets/images/galera-30.png');
+    background-repeat: no-repeat;
+    background-size: contain;  
+    background-position: left top;
+  }
+  
+  #sobre nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  #sobre nav .desktop-container {
+    flex-direction: column;
+  }
+
+  #sobre .logo {
+    width: 15%;
+  }
+  
+  #sobre .mockup {
+    width: 45%;  
+    margin-bottom: 2rem;
+    align-self: center;
+  }
+
+  #sobre .qrcode-container {
+    justify-content: center;
+    gap: 4rem;
+  }
+  
+  #sobre .qrcode {
+    width: 25%;
+  }
+  
+  #sobre h1 {
+    font-size: 3.4rem;
+  }
+  
+  #sobre p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 150%;
+    opacity: 0.8;
+  }
+  
+  #sobre h2 {
+    font-weight: 500;
+  }
+  
+  #sobre nav div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  /* beneficios */
+  #beneficios ul li {
+    color: #221E35;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  
+  /* perguntas */
+  #perguntas .perguntas-container {
+    margin-bottom: 6rem;
+    width: 50%;
+  }  
+  
+  #perguntas .social-links {
+    justify-content: center;
+    gap: 6rem;
+  }
+  
+  #perguntas .selo {
+    width: 60%;
+  }
+  
+  /* rodapé */  
+  footer img.logo {
+    width: 15%;
+    margin-bottom: 0;
+  }
+  
+}
+
 
 
 
